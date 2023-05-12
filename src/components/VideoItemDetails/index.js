@@ -137,7 +137,7 @@ class VideoItemDetails extends Component {
 
         return (
           <>
-            <ReactPlayer width="100%" height="70vh" url={videoUrl} />
+            <ReactPlayer width="100%" height="70vh" url={videoUrl} controls/>
             <ChannelContainer>
               <Title isDark={isDark}>{title}</Title>
               <ChannelInfo>
